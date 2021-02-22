@@ -1,0 +1,29 @@
+{
+  "name": "webpack-config",
+  "version": "1.0.0",
+  "description": "Learn Webpack 5 by Swashbuckling tutorial",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "private": true,
+  "devDependencies": {},
+  "scripts": {
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a99h/webpack-config.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a99h/webpack-config/issues"
+  },
+  "homepage": "https://github.com/a99h/webpack-config#readme"
+}
